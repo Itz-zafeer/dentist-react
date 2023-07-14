@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Light.ttf);
+    font-weight: 300;
+    display: block;
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Regular.ttf);
+    font-weight: 400;
+    display: block;
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Medium.ttf);
+    font-weight: 500;
+    display: block;
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Bold.ttf);
+    font-weight: 700;
+    display: block;
+}
+body{
+    font-family: Ubuntu;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components{
+     .Container1680{
+        @apply md:w-[87.5vw] w-[87vw] mx-[auto]
+     }
+     .Container1440{
+        @apply md:w-[75vw] w-[87vw] mx-[auto]
+     }
+     .text20{
+        @apply md:text-[1.25vw] md:leading-[1.82291666667vw]
+     }
+     .text62{
+        @apply md:text-[3.22916666667vw] md:leading-[3.90625vw]
+        font-[700]
+     }
+     .anchor1{
+        @apply  hover:border-[#FFFFFF] border-[3px]
+        md:w-[18.75vw] md:h-[4.166666666666667vw] text20  font-[500]
+      flex items-center justify-center hover:bg-[#7D5BA6] bg-[#FFFFFF] hover:text-[#FFFFFF] text-[#7D5BA6] border-[#7D5BA6]  transition-all duration-300
+      md:gap-x-[0.83333333333vw] rounded-[10px]
+      
+     }
+     .anchor1 svg{
+        @apply md:w-[2.083333333333333vw]
+     }
+}
+.anchor1:hover svg g{
+    transition: all .3s;
+}
+.anchor1:hover svg g{
+    fill: #FFFFFF;
+}
+.gradient1{
+    background-image: linear-gradient(to bottom, #7d5ba6, #7766b7, #6e71c7, #617dd6, #4c89e5, #4c89e5, #4c89e5, #4c89e5, #617dd6, #6e71c7, #7766b7, #7d5ba6);
+}
+
+
+
+/* COLOR CLASSESS  */
+
+
+.DeepBlue{
+    color: #0099F7;
+}
+.LightBlue{
+    color: #00D4FF;
+}
+.DarkGreen{
+    color: #56C596; 
+}
+.LightGreen{
+    color: #A3D9B1;
+}
+.DarkPurple{
+    color: #7D5BA6;
+}
+.LightPurple{
+    color: #C982C8;
+}
+.DarkOrange{
+    color: #FF7216;
+}
+.LightOrange{
+    color: #FFD299;
+}
+.DarkPink{
+    color: #F671BB;
+}
+.LightPink{
+    color: #FEB5D1;
+}
+
+
+/* COLOR CLASSESS  */   
