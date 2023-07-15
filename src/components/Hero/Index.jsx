@@ -1,6 +1,6 @@
 import React from 'react'
-import BgImg from '../../assets/Images/hero/backgrounds/6.jpg'
-import HeroImg from '../../assets/Images/hero/hero-img1.png'
+import BgImg from '../../assets/images/hero/backgrounds/6.jpg'
+import HeroImg from '../../assets/images/hero/hero-img1.png'
 import BookAppoinment from '../utils/BookAppoinment'
 
 const Index = () => {
