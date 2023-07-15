@@ -57,7 +57,7 @@ body{
         @apply md:w-[2.083333333333333vw]
      }
 }
-.anchor1:hover svg g{
+.anchor1 svg g{
     transition: all .3s;
 }
 .anchor1:hover svg g{
