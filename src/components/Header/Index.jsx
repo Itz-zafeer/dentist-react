@@ -5,10 +5,10 @@ import Navbar from './Navbar'
 const Index = () => {
   return (
     <header className='absolute w-full left-0
-    z-[2] md:pt-[2.083333333333333vw]'>
+    z-[2] sm:pt-[4.26829268293vw] lg:pt-[2.083333333333333vw]'>
        <div className='Container1680
        flex items-center justify-between'>
-<div className='md:w-[10.41666666666667vw]'>
+<div className='sm:w-[18.2926829268vw] lg:w-[10.41666666666667vw]'>
   <a href="">
     <img src={Logo} alt={Logo} className='w-full object-cover'/>
   </a>

@@ -31,32 +31,61 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 @layer components{
      .Container1680{
-        @apply md:w-[87.5vw] w-[87vw] mx-[auto]
+        @apply lg:w-[87.5vw] w-[87vw] mx-[auto]
      }
      .Container1440{
-        @apply md:w-[75vw] w-[87vw] mx-[auto]
+        @apply lg:w-[75vw] w-[87vw] mx-[auto]
      }
-     .text20{
-        @apply md:text-[1.25vw] md:leading-[1.82291666667vw]
+     .text18{
+        @apply lg:text-[0.9375vw] lg:leading-[1.40625vw]
+        sm:text-[2.19512195122vw] sm:leading-[3.29268292683vw]
+     }
+     .text24{
+        @apply lg:text-[1.25vw] lg:leading-[1.82291666667vw]
+        sm:text-[2.92682926829vw] sm:leading-[4.26829268293vw]
+     }
+     .text32{
+        @apply lg:text-[1.66666666667vw] lg:leading-[2.34375vw]
+        sm:text-[3.90243902439vw] sm:leading-[5.48780487805vw]
      }
      .text62{
-        @apply md:text-[3.22916666667vw] md:leading-[3.90625vw]
-        font-[700]
+        @apply lg:text-[3.22916666667vw] lg:leading-[3.90625vw]
+        font-[700] sm:text-[4.87804878049vw] sm:leading-[7.31707317073vw]
      }
      .anchor1{
         @apply  hover:border-[#FFFFFF] border-[3px]
-        md:w-[18.75vw] md:h-[4.166666666666667vw] text20  font-[500]
+        lg:w-[18.75vw] w-[55%] lg:h-[4.166666666666667vw] sm:h-[10.6097560976vw] text24  font-[500]
       flex items-center justify-center hover:bg-[#7D5BA6] bg-[#FFFFFF] hover:text-[#FFFFFF] text-[#7D5BA6] border-[#7D5BA6]  transition-all duration-300
-      md:gap-x-[0.83333333333vw] rounded-[10px]
+      lg:gap-x-[0.83333333333vw] sm:gap-x-[1.9512195122vw] rounded-[10px]
       
      }
      .anchor1 svg{
-        @apply md:w-[2.083333333333333vw]
+        @apply lg:w-[2.083333333333333vw] sm:w-[6.09756097561vw]
+     }
+     .card{
+        @apply  lg:w-[46.50%]  cursor-pointer sm:h-[50vw]
+        lg:h-[25vw] relative rounded-[1.5625vw] overflow-hidden
+        flex justify-center lg:pt-[6.25vw] sm:pt-[9.75609756098vw]
      }
 }
+
+.card img,.card{
+    transition: all .3s;
+}
+
+.card:hover img{
+    transform: scale(1.05);
+}
+.card:hover{
+    transform: scale(1.03);
+}
+
 .anchor1 svg g{
     transition: all .3s;
 }

@@ -23,9 +23,10 @@ const LinksData = [
  
 const Navbar = () => {
   return (
-    <nav className='flex items-center md:gap-x-[4.16666666667vw]'>
-    <ul className='text20 text-[#FFFFFF]
-    flex items-center md:gap-x-[3.125vw]' >
+    <nav className=' items-center lg:gap-x-[4.16666666667vw]
+    hidden lg:flex'>
+    <ul className='text24 text-[#FFFFFF]
+    flex items-center lg:gap-x-[3.125vw]' >
     {
         LinksData.map((LinksDat,index)=>(
       <Links title={LinksDat.title} key={index} />

@@ -1,13 +1,17 @@
 import React from 'react'
+import Lottie from "lottie-react";
 import BgImg from '../../assets/images/hero/backgrounds/6.jpg'
 import HeroImg from '../../assets/images/hero/hero.webp'
-import BookAppoinment from '../utils/BookAppoinment'
-
+import Content from './component/Content'
+import ScrollDown from '../../assets/json/ScrollDown.json'
+const Scroll = () =>{
+    window.scrollBy(0, window.innerHeight);
+}
 const Index = () => {
     return (
         <section>
             <div className='relative h-[100svh]
-            flex items-end md:pb-[12vw]'>
+            flex items-end sm:pb-[36.5853658537vw] lg:pb-[12vw] overflow-hidden'>
                 <div className='absolute w-full h-full
                 top-0 left-0'>
                     <img src={BgImg} alt={BgImg}
@@ -19,18 +23,16 @@ const Index = () => {
                  right-0 h-full object-cover mix-blend-multiply'
                     />
                     <span className='absolute w-full h-full
-                top-0 left-0 gradient1 opacity-[0.7] mix-blend-multiply'></span>
+                top-0 left-0 gradient1 opacity-[0.7] mix-blend-multiply'>
+                    <Lottie animationData={ScrollDown} onClick={Scroll}  
+                        className='absolute bottom-[-2vw] left-[50%]
+                        transform translate-x-[-50%] z-[2] cursor-pointer
+                       lg:w-[4.6875vw] lg:h-[9.89583333333vw]
+                       sm:w-[8.53658536585vw]'
+                    />
+                </span>
                 </div>
-                <div className='Container1680 relative z-[2]
-                '>
-                    <div className='md:w-[49.47916666666667vw] text-[#FFFFFF]
-                   md:gap-y-[1.666666666666667vw] flex flex-col'>
-                        <h1 className='text62'>
-                            How about "Transform Your Smile with Expert Dental Care"?
-                        </h1>
-                        <BookAppoinment />
-                    </div>
-                </div>
+                <Content />
                 <div>
 
                 </div>
