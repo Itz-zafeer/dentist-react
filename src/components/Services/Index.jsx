@@ -4,22 +4,22 @@ const CardData = [
   {
     title:"orthodontics",
     paragraph:"Orthodontics is a specialized dentistry branch that corrects misaligned teeth and jaws using advanced techniques and technology. It offers innovative solutions like braces, clear aligners, and retainers for crowded teeth and unique treatment goals.",
-    image:"../../src/assets/images/services/cards/1.jpeg"
+    image:"/images/services/cards/1.jpeg"
   },
   {
     title:"Restorative Dentistry",
     paragraph:"Restorative dentistry services restore function, health, and aesthetics of smiles for damaged, missing, or decayed teeth using advanced techniques and materials for durable, natural-looking results. ",
-    image:"../../src/assets/images/services/cards/2.jpeg"
+    image:"/images/services/cards/2.jpeg"
   },
   {
     title:"Oral Surgery",
     paragraph:"Oral Surgery services offer various surgical procedures to treat dental issues, including tooth extraction, wisdom teeth removal, bone grafting, and dental implants. Skilled surgeons use advanced technology and techniques, ensuring a comfortable and pain-free experience for patients.",
-    image:"../../src/assets/images/services/cards/3.jpeg"
+    image:"/images/services/cards/3.jpeg"
   },
   {
     title:"Emergency Dental Care",
     paragraph:"Our dental clinic prioritizes dental emergencies, offering reliable, immediate care. Our experienced dentists handle various issues, including severe tooth pain, broken teeth, and oral injuries. They prioritize prompt intervention and provide efficient treatment to restore oral health. ",
-    image:"../../src/assets/images/services/cards/4.jpeg"
+    image:"/images/services/cards/4.jpeg"
   },
 ]
 const Index = () => {
