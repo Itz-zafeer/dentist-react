@@ -97,7 +97,7 @@ html{
     fill: #FFFFFF;
 }
 .gradient1{
-    background-image: linear-gradient(to bottom, #7d5ba6, #7766b7, #6e71c7, #617dd6, #4c89e5, #4c89e5, #4c89e5, #4c89e5, #617dd6, #6e71c7, #7766b7, #7d5ba6);
+    background: linear-gradient(to bottom, #7d5ba6, #7766b7, #6e71c7, #617dd6, #4c89e5, #4c89e5, #4c89e5, #4c89e5, #617dd6, #6e71c7, #7766b7, #7d5ba6);
 }
 
 
@@ -138,3 +138,32 @@ html{
 
 
 /* COLOR CLASSESS  */   
+
+
+/* HAMBURGER  */   
+.menu{
+    position: relative;
+} 
+.menu span{
+    @apply absolute bg-[#FFFFFF] h-[0.5vw] w-full  left-0 transition-all duration-300
+}
+.menu.active span:nth-child(2){ 
+opacity: 0;
+}
+.menu.active span:nth-child(3){ 
+transform: rotate(-45deg);
+top: 50%;
+}
+.menu.active span:nth-child(1){ 
+transform: rotate(45deg);
+top: 50%;
+}
+.sideBar.active{
+    opacity: 1;
+    pointer-events: initial;
+}
+body.active{
+    height: 100svh;
+    overflow: hidden;
+}
+/* HAMBURGER  */   

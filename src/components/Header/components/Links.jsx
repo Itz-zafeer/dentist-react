@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Links = ({title}) => { 
+const Links = ({title,classes}) => { 
   return (
-    <li>
+    <li className={`${classes ? classes : ""}`}>
     <span  >{title}</span>
   </li>
   )
