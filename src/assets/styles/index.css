@@ -64,13 +64,13 @@ html{
      }
      .anchor1{
         @apply  hover:border-[#FFFFFF] border-[3px]
-        lg:w-[18.75vw] w-[90%] sm:w-[55%] lg:h-[4.166666666666667vw] sm:h-[10.6097560976vw] h-[17.9487179487vw] text24  font-[500]
+        lg:w-[18.75vw] w-[75.641025641vw] sm:w-[47.8048780488vw] lg:h-[4.166666666666667vw] sm:h-[10.6097560976vw] h-[15.8974358974vw] text24  font-[500]
       flex items-center justify-center hover:bg-[#7D5BA6] bg-[#FFFFFF] hover:text-[#FFFFFF] text-[#7D5BA6] border-[#7D5BA6]  transition-all duration-300
       lg:gap-x-[0.83333333333vw] sm:gap-x-[1.9512195122vw] gap-x-[3.07692307692vw] rounded-[10px]
       
      }
      .anchor1 svg{
-        @apply lg:w-[2.083333333333333vw] sm:w-[6.09756097561vw] w-[10.7692307692vw]
+        @apply lg:w-[2.083333333333333vw] sm:w-[6.09756097561vw] w-[8.97435897436vw]
      }
      .card{
         @apply  lg:w-[46.50%]  cursor-pointer sm:h-[42vw] h-[75vw]
@@ -160,7 +160,7 @@ top: 50%;
 }
 .sideBar.active{
     opacity: 1;
-    pointer-events: initial;
+    pointer-events: initial;  
 }
 body.active{
     height: 100svh;
