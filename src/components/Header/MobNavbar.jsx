@@ -6,7 +6,7 @@ import BookAppoinment from '../utils/BookAppoinment'
 const MobNavbar = () => {
     return (
         <nav className='sideBar absolute left-0 top-0 w-full h-[100svh]
-    flex flex-col gap-y-[14vw] items-center pt-[80vw] sm:pt-[50vw] backdrop-blur-[40px] z-[1] transition-all duration-300 opacity-0 pointer-events-none'>
+    flex flex-col gap-y-[14vw] items-center pt-[45%] sm:pt-[50vw] backdrop-blur-[40px] z-[1] transition-all duration-300 opacity-0 pointer-events-none'>
             <ul className='flex flex-col w-[90%] text-white
         text32 font-[500] gap-y-[6vw]'>
 
