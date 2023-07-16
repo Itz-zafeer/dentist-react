@@ -26,7 +26,8 @@ const Index = () => {
   return (
     <section>
       <div>
-        <div className='Container1440 lg:py-[6.25vw] sm:py-[9.75609756098vw] py-[15.3846153846vw]'>
+        <div className='Container1440 lg:py-[6.25vw] sm:py-[9.75609756098vw] py-[15.3846153846vw]
+         '>
           <h2 className='text62 DarkPurple capitalize'>
             our services
           </h2>
