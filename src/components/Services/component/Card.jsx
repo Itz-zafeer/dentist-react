@@ -11,11 +11,11 @@ const Card = ({ title, paragraph, CardImg }) => {
 
                 </span>
             </div>
-            <div className='relative z-[2] w-[86%] mx-[auto] text-[#FFFFFF]'>
+            <div className='relative z-[2] w-[90%]  text-[#FFFFFF]'>
                 <h4 className='text32 capitalize font-[500] lg:tracking-[0.15625vw]'>
                     {title}
                 </h4>
-                <p className='text18 lg:mt-[0.9375vw] sm:mt-[2.19512195122vw]'>
+                <p className='text18 lg:mt-[0.9375vw] sm:mt-[2.19512195122vw] mt-[2.05128205128vw]'>
                     {paragraph}
                 </p>
             </div>

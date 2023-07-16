@@ -37,41 +37,45 @@ html{
 
 @layer components{
      .Container1680{
-        @apply lg:w-[87.5vw] w-[87vw] mx-[auto]
+        @apply lg:w-[87.5vw] sm:w-[87vw] w-[87%] mx-[auto]
      }
      .Container1440{
-        @apply lg:w-[75vw] w-[87vw] mx-[auto]
+        @apply lg:w-[75vw] sm:w-[87vw] w-[90%] mx-[auto]
      }
      .text18{
         @apply lg:text-[0.9375vw] lg:leading-[1.40625vw]
         sm:text-[2.19512195122vw] sm:leading-[3.29268292683vw]
+        text-[4.10256410256vw] leading-[6.41025641026vw]
      }
      .text24{
         @apply lg:text-[1.25vw] lg:leading-[1.82291666667vw]
         sm:text-[2.92682926829vw] sm:leading-[4.26829268293vw]
+        text-[5.12820512821vw] leading-[7.17948717949vw]
      }
      .text32{
         @apply lg:text-[1.66666666667vw] lg:leading-[2.34375vw]
         sm:text-[3.90243902439vw] sm:leading-[5.48780487805vw]
+        text-[6.15384615385vw] leading-[9.23076923077vw]
      }
      .text62{
         @apply lg:text-[3.22916666667vw] lg:leading-[3.90625vw]
         font-[700] sm:text-[4.87804878049vw] sm:leading-[7.31707317073vw]
+        text-[7.94871794872vw] leading-[11.5384615385vw]
      }
      .anchor1{
         @apply  hover:border-[#FFFFFF] border-[3px]
-        lg:w-[18.75vw] w-[55%] lg:h-[4.166666666666667vw] sm:h-[10.6097560976vw] text24  font-[500]
+        lg:w-[18.75vw] w-[90%] sm:w-[55%] lg:h-[4.166666666666667vw] sm:h-[10.6097560976vw] h-[17.9487179487vw] text24  font-[500]
       flex items-center justify-center hover:bg-[#7D5BA6] bg-[#FFFFFF] hover:text-[#FFFFFF] text-[#7D5BA6] border-[#7D5BA6]  transition-all duration-300
-      lg:gap-x-[0.83333333333vw] sm:gap-x-[1.9512195122vw] rounded-[10px]
+      lg:gap-x-[0.83333333333vw] sm:gap-x-[1.9512195122vw] gap-x-[3.07692307692vw] rounded-[10px]
       
      }
      .anchor1 svg{
-        @apply lg:w-[2.083333333333333vw] sm:w-[6.09756097561vw]
+        @apply lg:w-[2.083333333333333vw] sm:w-[6.09756097561vw] w-[10.7692307692vw]
      }
      .card{
-        @apply  lg:w-[46.50%]  cursor-pointer sm:h-[50vw]
-        lg:h-[25vw] relative rounded-[1.5625vw] overflow-hidden
-        flex justify-center lg:pt-[6.25vw] sm:pt-[9.75609756098vw]
+        @apply  lg:w-[46.50%]  cursor-pointer sm:h-[42vw] h-[75vw]
+        lg:h-[20vw] relative sm:rounded-[3.65853658537vw] lg:rounded-[1.5625vw] rounded-[7.69230769231vw] overflow-hidden
+        flex justify-center lg:pt-[6.25vw] sm:pt-[9.75609756098vw] pt-[10.2564102564vw]
      }
 }
 
