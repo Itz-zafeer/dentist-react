@@ -5,22 +5,22 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 const TeamData = [
     {
-        image: "/public/images/our-team/1.webp"
+        image: "/images/our-team/1.webp"
     },
     {
-        image: "/public/images/our-team/2.webp"
+        image: "/images/our-team/2.webp"
     },
     {
-        image: "/public/images/our-team/3.webp"
+        image: "/images/our-team/3.webp"
     },
     {
-        image: "/public/images/our-team/1.webp"
+        image: "/images/our-team/1.webp"
     },
     {
-        image: "/public/images/our-team/2.webp"
+        image: "/images/our-team/2.webp"
     },
     {
-        image: "/public/images/our-team/3.webp"
+        image: "/images/our-team/3.webp"
     },
     
 
