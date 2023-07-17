@@ -1,4 +1,5 @@
 import React from 'react' 
+import BgImage from '../../assets/images/hero/backgrounds/3.jpg'
 import Card from './component/Card'
 const CardData = [
   {
@@ -25,10 +26,16 @@ const CardData = [
 const Index = () => {
   return (
     <section>
-      <div>
-        <div className='Container1440 lg:py-[6.25vw] sm:py-[9.75609756098vw] py-[15.3846153846vw]
+      <div className='relative'>
+      <div className='absolute w-full h-full top-0 left-0'>
+                    <img src={BgImage} alt={BgImage}
+                        className='fixed w-full h-full top-0 left-0 object-cover'
+                    />
+                    <span className='gradient1 mix-blend-multiply opacity-[0.6] absolute w-full h-full top-0 left-0'></span>
+                </div>  
+        <div className='relative z-[2] Container1440 lg:py-[6.25vw] sm:py-[9.75609756098vw] py-[15.3846153846vw]
          '>
-          <h2 className='text62 DarkPurple capitalize'>
+          <h2 className='text62 text-[#FFFFFF] capitalize'>
             our services
           </h2>
           <div className='flex items-center flex-wrap

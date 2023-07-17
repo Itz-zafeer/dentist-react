@@ -177,3 +177,23 @@ body.active{
     overflow: hidden;
 }
 /* HAMBURGER  */   
+
+
+@media (min-width:640px){
+    .our__Team .swiper-slide{
+        width: 32.418699187vw !important;
+        height: 40vw;
+    }
+}
+@media (min-width:1024px){
+    .our__Team .swiper-slide{
+        width: 24.375vw !important;
+        height: 25vw;
+    }
+}
+@media (max-width:640px){
+    .our__Team .swiper-slide{
+        width: 47.9487179487vw !important;
+        height: 70vw;
+    }
+}

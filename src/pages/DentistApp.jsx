@@ -3,6 +3,7 @@ import Header from '../components/Header/Index'
 import Hero from '../components/Hero/Index'
 import Services from '../components/Services/Index'
 import AboutUs from '../components/Aboutus/Index'
+import OurTeam from '../components/Ourteam/Index'
 import Colors from '../components/colors/Index'
 const DentistApp = () => {
   return (
@@ -12,6 +13,7 @@ const DentistApp = () => {
       <Hero />
       <AboutUs />
       <Services />
+      <OurTeam />
       </main>
       {/* <Colors /> */}
     </div>

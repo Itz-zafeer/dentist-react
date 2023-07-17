@@ -9,7 +9,7 @@ const Scroll = () =>{
 }
 const Index = () => {
     return (
-        <section>
+        <section className='relative z-[2] '>
             <div className='relative h-[100svh]
             flex items-end sm:pb-[36.5853658537vw] lg:pb-[12vw] pb-[39.7435897436vw] overflow-hidden'>
                 <div className='absolute w-full h-full

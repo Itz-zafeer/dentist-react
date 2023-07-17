@@ -9,7 +9,7 @@ const DoctorInfo = ({image,title,classes}) => {
                                     className='w-full h-full object-cover'
                                 />
                             </div>
-                            <div className='lg:w-[39.5833333333vw] text-[#FFFFFF] flex flex-col'>
+                            <div className='lg:w-[39.5833333333vw] text-[#000] flex flex-col'>
                                 <div>
                                     <h5 className='text32 font-[500] text-[#266980]'>{title}</h5>
                                     <span className='text18 block lg:mt-[0.3125vw]'>
