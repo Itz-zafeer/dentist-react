@@ -5,6 +5,7 @@ import Services from '../components/Services/Index'
 import AboutUs from '../components/Aboutus/Index'
 import OurTeam from '../components/Ourteam/Index'
 import ReviewsandBeforeafter from '../components/ReviewsandBeforeafter/Index'
+import VisitUs from '../components/Visitus/Index'
 import Colors from '../components/colors/Index'
 const DentistApp = () => {
   return (
@@ -16,6 +17,7 @@ const DentistApp = () => {
       <Services />
       <OurTeam />
       <ReviewsandBeforeafter />
+      {/* <VisitUs /> */}
       </main>
       {/* <Colors /> */}
     </div>

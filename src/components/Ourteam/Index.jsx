@@ -43,6 +43,7 @@ const Index = () => {
                         autoplay={{
                             delay: 2000, 
                         }}
+                        speed={700}
                     >
                         {
                             TeamData.map((TeamDat, index) => (
