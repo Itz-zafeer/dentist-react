@@ -12,7 +12,10 @@ const BeforeAndAfter = ({BeforeAfterData}) => {
          <Swiper modules={[Pagination]} className='before__AfterSlider slider__DotHandel'
          pagination={{ 
           clickable: true,
-    }}
+    }} 
+    draggable={false}
+    noSwiping= {true}
+noSwipingClass= 'before__AfterSlider'
          simulateTouch={false}
          slidesPerView={1}
          >

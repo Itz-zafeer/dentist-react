@@ -71,16 +71,8 @@ const Index = () => {
            </SwiperSlide>
           ))
          }
-        
-        
-         
-        
-         
-           
          </Swiper>
-          
-         
-         </div>
+           </div>
         </div>
          <BeforeAndAfter BeforeAfterData={BeforeAfterData}/>
         </div>
