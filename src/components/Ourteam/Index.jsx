@@ -58,7 +58,7 @@ const Index = () => {
 
                     </Swiper>
                     <img src={Design} alt={Design} 
-                        className='w-full'
+                        className='w-full h-[7.69230769231vw] sm:h-[3.65853658537vw] lg:h-[unset] object-cover'
                     />
                 </div>
             </div>

@@ -178,20 +178,54 @@ body.active{
 }
 /* HAMBURGER  */   
 
+.slider__DotHandel .swiper-pagination{
+    bottom: 0!important;
+}
+.slider__DotHandel{
+    height: 100%;
+}
+.slider__DotHandel .swiper-pagination-bullet-active{
+    background-color: #FFFFFF !important;
+}
 
 @media (min-width:640px){
+    .slider__DotHandel{
+        padding-bottom: 6.09756097561vw !important;
+
+    }
+    .slider__DotHandel .swiper-pagination-bullet{
+        width: 1.82926829268vw !important;
+        height: 1.82926829268vw !important;
+    }
     .our__Team .swiper-slide{
         width: 32.418699187vw !important;
         height: 40vw;
     }
 }
-@media (min-width:1024px){
+@media (min-width:1024px){ 
+    .slider__DotHandel{
+        padding-bottom: 2.60416666667vw !important;
+
+    }
+    .slider__DotHandel .swiper-pagination-bullet{
+        width: 0.78125vw !important;
+        height: 0.78125vw !important;
+    }
+
     .our__Team .swiper-slide{
         width: 24.375vw !important;
         height: 25vw;
     }
 }
 @media (max-width:640px){
+    .slider__DotHandel{
+        padding-bottom: 8.97435897436vw !important;
+
+    }
+    .slider__DotHandel .swiper-pagination-bullet{
+        width: 2.5641025641vw !important;
+        height: 2.5641025641vw !important;
+    }
     .our__Team .swiper-slide{
         width: 47.9487179487vw !important;
         height: 70vw;

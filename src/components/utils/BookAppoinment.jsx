@@ -1,8 +1,8 @@
 import React from 'react'
 
-const BookAppoinment = () => {
+const BookAppoinment = ({classes}) => {
   return (
-    <a href="" className='anchor1'>
+    <a href="" className={`${classes} anchor1`}>
     <span>
         Book an Appointment
     </span>
